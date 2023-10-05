@@ -1,4 +1,4 @@
-[
+export const articles = [
   {
     _id: 1,
     title: "Are you there god?",
