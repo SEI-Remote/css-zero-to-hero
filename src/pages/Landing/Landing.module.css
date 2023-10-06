@@ -1,0 +1,28 @@
+.sideNav {
+  width: 25%;
+  background-color: rgb(230, 230, 230);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  font-size: 24px;
+}
+
+.mainContent {
+  width: 75%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.landingContainer {
+  display: flex;
+  min-height: calc(100vh - 56px);
+}
+
+.osLogo {
+  width: 100px;
+}

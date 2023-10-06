@@ -22,8 +22,8 @@ function App() {
       <NavBar />
       <Routes>
         <Route path='/' element={<Landing />} />
-        <Route path='/side-by-side' element={<SideBySide />} />
-        <Route path='/card-display' element={<Cards />} />
+        <Route path='/side-by-side' element={<SideBySide articles={articles} />} />
+        <Route path='/card-display' element={<Cards articles={articles} />} />
         <Route path='/os-list' element={<OSList />} />
       </Routes>
     </>
