@@ -79,7 +79,7 @@ export const articleData = [
     _id: 7,
     headline: "It's time to work",
     title: "It's time to work",
-    image: "https://benmanley.biz/article_photos/bossdog.jpg",
+    image: "https://benmanley.biz/article_photos/bossdog.jpeg",
     paragraphs: [
       "In a charming little town, there lived an enterprising Jack Russell Terrier named Oliver. While most dogs were content with chasing balls and barking at passing cars, Oliver had an obsession that set him apart - he dreamt of running a lucrative tie business.",
       "Oliver's entrepreneurial spirit was evident from a young age. He would gather colorful scraps of fabric in his mouth, practicing different knots and styles in secret. His backyard soon resembled a small fashion studio, with discarded ties strewn about.",
@@ -189,7 +189,7 @@ export const articleData = [
     _id: 15,
     headline: "Nap, eat, repeat",
     title: "It's Peeve!",
-    image: "https://benmanley.biz/article_photos/peeve.jpg",
+    image: "https://benmanley.biz/article_photos/peeve.jpeg",
     paragraphs: [
       "Peeve, a plump and contented cat with an insatiable appetite for life's simple pleasures, lived a leisurely existence. His days were a delightful cycle of eating, napping, and lounging on comfy pillows in the warm embrace of the sun.",
       "With the first rays of morning light, Peeve would rouse himself from his slumber, stretching his furry limbs with sleepy contentment. His eyes, half-closed in drowsy satisfaction, would then narrow in on the kitchen, anticipating the feast that awaited him.",

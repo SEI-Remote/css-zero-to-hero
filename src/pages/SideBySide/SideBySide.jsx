@@ -11,7 +11,7 @@ const SideBySide = (props) => {
   }
   return (
     <div className={styles.sideBySideContainer}>
-      <aside className={styles.sideNav}>
+      <aside className={styles.sideArticleNav}>
         {props.articles.map((article, idx) =>
           <div 
             key={article._id}

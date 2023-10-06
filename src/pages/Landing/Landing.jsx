@@ -6,7 +6,7 @@ const Landing = (props) => {
 
   return (
     <div className={styles.landingContainer}>
-      <aside className={styles.sideNav}>
+      <aside className={styles.sideLandingNav}>
         <div className={styles.hand}>👋</div>
         <div>Welcome!</div>
       </aside>
