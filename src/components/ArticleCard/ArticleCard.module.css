@@ -1,0 +1,16 @@
+.articleCard {
+  width: 250px;
+  border: 1px solid black;
+  background-color: rgb(230, 230, 230);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  text-align: center;
+  padding: 24px;
+}
+
+.cardImg {
+  width: 150px;
+}
