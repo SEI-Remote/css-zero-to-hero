@@ -8,7 +8,9 @@ import styles from './NavBar.module.css'
 const NavBar = () => {
   return (
     <nav className={styles.nav}>
-      <img className={styles.navLogo} src={gaCog} alt="General Assembly Logo" />
+      <Link to='/'>
+        <img className={styles.navLogo} src={gaCog} alt="General Assembly Logo" />
+      </Link>
       <div className={styles.linkContainer}>
         <Link to='/os-list'>OS List</Link>
         <Link to='/side-by-side'>Side View</Link>
