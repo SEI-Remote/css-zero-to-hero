@@ -24,7 +24,12 @@ const SideBySide = (props) => {
       
       </aside>
       <main className={styles.mainContent}>
-
+        <h1>{selectedArticle.title}</h1>
+        <img className={styles.articleImg} src={selectedArticle.image} alt="Fun pet pic" />
+        <h2>{selectedArticle.headline}</h2>
+        {selectedArticle.paragraphs.map((paragraph, idx) =>
+          <p key={idx}>{paragraph}</p>  
+        )}
       </main>
     </div>
   )
